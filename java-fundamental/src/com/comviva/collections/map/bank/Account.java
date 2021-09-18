@@ -6,12 +6,14 @@ public class Account {
 	public String accId;
 	public double balance;
 	public String email;
-	public Account(long id, String accId, double balance, String email) {
+	public long fd;
+	public Account(long id, String accId, double balance, String email,long fd) {
 		super();
 		this.id = id;
 		this.accId = accId;
 		this.balance = balance;
 		this.email = email;
+		this.fd = fd;
 	}
 	public Account() {
 		super();
